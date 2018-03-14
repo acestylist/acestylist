@@ -16,9 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity">
-
-        </activity>
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".ProfilecardActivity" />
+        <activity android:name=".SearchcardActivity" />
+        <activity android:name=".UpdatecardActivity" />
+        <activity android:name=".LogoutcardActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".FacewomenActivity" />
+        <activity android:name=".FacemenActivity" />
+        <activity android:name=".SkintoneActivity" />
+        <activity android:name=".WomenbodyActivity" />
+        <activity android:name=".MenbodyActivity" />
+        <activity android:name=".GenderfemaleActivity" />
+        <activity android:name=".GendermaleActivity" />
+        <activity android:name=".CollectioncardprofileActivity" />
+        <activity android:name=".SuggestioncardprofileActivity" />
+        <activity android:name=".GenderActivity"></activity>
     </application>
 
 </manifest>
