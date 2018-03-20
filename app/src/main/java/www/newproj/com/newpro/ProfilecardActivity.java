@@ -1,9 +1,12 @@
 package www.newproj.com.newpro;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
+import android.transition.Slide;
+import android.view.Gravity;
 import android.view.View;
 
 public class ProfilecardActivity extends AppCompatActivity implements View.OnClickListener {

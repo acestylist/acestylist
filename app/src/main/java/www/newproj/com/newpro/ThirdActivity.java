@@ -37,7 +37,7 @@ import android.view.View;
                 startActivity(i);
                 break;
             case R.id.update_et:
-                i = new Intent(this, UpdatecardActivity.class);
+                i = new Intent(this, SecondActivity.class);
                 startActivity(i);
                 break;
             case R.id.logout_et:
