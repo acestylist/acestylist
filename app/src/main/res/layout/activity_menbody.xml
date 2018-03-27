@@ -38,7 +38,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/ovalmenbodystructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -56,9 +58,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="                  OVAL"
+                    android:text="OVAL"
                     android:visibility="visible"
-                    android:textColor="@color/black_overlay"/>
+                    android:textColor="@color/black_overlay"
+                    android:gravity="center"/>
 
 
 
@@ -69,7 +72,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/rectanglemenbodystructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -87,9 +92,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="             RECTANGLE"
+                    android:text="RECTANGLE"
                     android:visibility="visible"
-                    android:textColor="@color/black_overlay"/>
+                    android:textColor="@color/black_overlay"
+                    android:gravity="center"/>
 
 
 
@@ -110,7 +116,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/trapmenbodystructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -128,9 +136,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="                  TRAP"
+                    android:text="TRAP"
                     android:visibility="visible"
-                    android:textColor="@color/black_overlay"/>
+                    android:textColor="@color/black_overlay"
+                    android:gravity="center"/>
 
 
 
@@ -140,7 +149,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/trianglemenbodystructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -158,9 +169,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="              TRIANGLE"
+                    android:text="TRIANGLE"
                     android:visibility="visible"
-                    android:textColor="@color/black_overlay"/>
+                    android:textColor="@color/black_overlay"
+                    android:gravity="center"/>
 
 
 
@@ -180,7 +192,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/intrimenbodystructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -198,9 +212,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="                  INTRI"
+                    android:text="INTRI"
                     android:visibility="visible"
-                    android:textColor="@color/black_overlay"/>
+                    android:textColor="@color/black_overlay"
+                    android:gravity="center"/>
 
 
             </LinearLayout>

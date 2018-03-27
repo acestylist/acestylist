@@ -27,11 +27,38 @@
         <activity android:name=".SkintoneActivity" />
         <activity android:name=".WomenbodyActivity" />
         <activity android:name=".MenbodyActivity" />
-        <activity android:name=".GenderfemaleActivity" />
-        <activity android:name=".GendermaleActivity" />
         <activity android:name=".CollectioncardprofileActivity" />
         <activity android:name=".SuggestioncardprofileActivity" />
-        <activity android:name=".GenderActivity"></activity>
+        <activity android:name=".GenderActivity" />
+        <activity android:name=".CoolskintonecollectioncardActivity" />
+        <activity android:name=".Ovalfaceswomencollectionctivity" />
+        <activity android:name=".RoundfaceswomencollectionActivity" />
+        <activity android:name=".HeartfaceswomencollectionActivity" />
+        <activity android:name=".LongfacewomencollectionActivity" />
+        <activity android:name=".SquraefacewomencollectionActivity" />
+        <activity android:name=".TrianglebodycollectionActivity" />
+        <activity android:name=".ApplebodycollectionActivity" />
+        <activity android:name=".HourglassbodycollectionActivity" />
+        <activity android:name=".PearbodycollectionActivity" />
+        <activity android:name=".StraightbodycollectionActivity" />
+        <activity android:name=".OvalmenbodycollectionActivity" />
+        <activity android:name=".RectanglemenbodycollectionActivity" />
+        <activity android:name=".TrapmenbodyActivity" />
+        <activity android:name=".TrianglemenbodycollectionActivity" />
+        <activity android:name=".IntrimenbodyActivity" />
+        <activity android:name=".TrianglemenfacecollectionActivity" />
+        <activity android:name=".SquaremenfacecollectionActivity" />
+        <activity android:name=".OvalmenfacecollectionActivity" />
+        <activity android:name=".LongmenfacecollectionActivity" />
+        <activity android:name=".RoundmenfacecollectionActivity" />
+        <activity android:name=".WarmskintonecollectionActivity" />
+        <activity android:name=".NeutralskintonecollectioncardActivity" />
+        <activity android:name=".TrianglemenfacestructurehaircutActivity" />
+        <activity android:name=".TrianglemenfacestructurebeardActivity" />
+        <activity android:name=".TrianglemenfacestructureaccessoriesActivity" />
+        <activity android:name=".SquaremenfacestructurebeardActivity" />
+        <activity android:name=".SquaremenfacestructureheircutActivity" />
+        <activity android:name=".SquaremenfacestructureaccessoriesActivity"></activity>
     </application>
 
 </manifest>

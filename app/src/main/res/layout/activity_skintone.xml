@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,7 +10,15 @@
     android:gravity="top"
     android:padding="10dp">
 
-
+    <GridLayout
+        android:id="@+id/maingrid"
+        android:columnCount="1"
+        android:rowCount="4"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,110 +36,60 @@
             android:textStyle="bold" />
 
     </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="false"
-        android:gravity="center"
-        android:orientation="horizontal">
-
         <android.support.v7.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="9dp"
+            android:id="@+id/neutralskintype"
+            android:onClick="onClick"
+            android:layout_gravity="center">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="160dp"
-                    android:layout_height="140dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:background="@color/black_overlay"
                     android:padding="10dp"
-                    android:src="@drawable/skintoneneutral" />
+                    android:src="@drawable/skintoneneutral"
+                    android:layout_gravity="center"/>
 
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:id="@+id/coolskintype"
+            android:onClick="onClick"
+            android:layout_gravity="center">
 
-            </LinearLayout>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black_overlay"
+                    android:padding="10dp"
+                    android:src="@drawable/sample1"
+                android:layout_gravity="center"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="9dp"
+            android:id="@+id/warmnskintype"
+            android:onClick="onClick"
+            android:layout_gravity="center">
 
+               <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black_overlay"
+                    android:padding="10dp"
+                    android:src="@drawable/skintypewarm"
+                   android:layout_gravity="center"/>
         </android.support.v7.widget.CardView>
 
 
-    </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="false"
-        android:gravity="center"
-        android:orientation="horizontal">
+    </GridLayout>
 
-        <android.support.v7.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="140dp"
-            android:layout_margin="9dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="160dp"
-                    android:layout_height="140dp"
-                    android:background="@color/black_overlay"
-                    android:padding="10dp"
-                    android:src="@drawable/sample1" />
-
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="false"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <android.support.v7.widget.CardView
-            android:layout_width="160dp"
-            android:layout_height="140dp"
-            android:layout_margin="9dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="160dp"
-                    android:layout_height="140dp"
-                    android:background="@color/black_overlay"
-                    android:padding="10dp"
-                    android:src="@drawable/skintypewarm" />
-
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-
-
-    </LinearLayout>
-
-</LinearLayout>
+</ScrollView>

@@ -12,7 +12,10 @@ import android.widget.Button;
 public class FacewomenActivity extends AppCompatActivity  implements View.OnClickListener {
 
 
-    CardView oval, round, longshape, heart, square;
+    CardView oval, round, longshape, heart,square;
+
+    Intent intent;
+    String gender, skintone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +27,12 @@ public class FacewomenActivity extends AppCompatActivity  implements View.OnClic
         heart = (CardView) findViewById(R.id.heartwomenfacestructure);
         square = (CardView) findViewById(R.id.squarewomenfacestructure);
 
+        intent = getIntent();
+        gender = intent.getStringExtra("gender");
+        skintone = intent.getStringExtra("skintone");
+
+        System.out.println("Values are : "+gender+"\n"+skintone);
+
     }
         @Override
     public void onClick(View view) {
@@ -32,29 +41,44 @@ public class FacewomenActivity extends AppCompatActivity  implements View.OnClic
         switch (view.getId()) {
             case R.id.ovalwomenfacestructure:
               womenbody = new Intent(getApplicationContext() , WomenbodyActivity.class);
+                womenbody.putExtra("gender", gender);
+                womenbody.putExtra("skintone",skintone);
+                womenbody.putExtra("face","oval");
                 AnimationUtils.loadAnimation(getApplicationContext() , R.anim.slide_inright);
                 startActivity(womenbody);
                 break;
 
             case R.id.roundwomenfacestructure:
                 womenbody = new Intent(getApplicationContext() , WomenbodyActivity.class);
+                womenbody.putExtra("gender", gender);
+                womenbody.putExtra("skintone",skintone);
+                womenbody.putExtra("face","round");
                 AnimationUtils.loadAnimation(getApplicationContext() , R.anim.slide_inright);
                 startActivity(womenbody);
                 break;
 
             case R.id.longwomenfacestructure:
                 womenbody = new Intent(getApplicationContext() , WomenbodyActivity.class);
+                womenbody.putExtra("gender", gender);
+                womenbody.putExtra("skintone",skintone);
+                womenbody.putExtra("face","long");
                 AnimationUtils.loadAnimation(getApplicationContext() , R.anim.slide_inright);
                 startActivity(womenbody);
                 break;
 
             case R.id.heartwomenfacestructure:
                 womenbody = new Intent(getApplicationContext() , WomenbodyActivity.class);
+                womenbody.putExtra("gender", gender);
+                womenbody.putExtra("skintone",skintone);
+                womenbody.putExtra("face","heart");
                 AnimationUtils.loadAnimation(getApplicationContext() , R.anim.slide_inright);
                 startActivity(womenbody);
                 break;
             case R.id.squarewomenfacestructure:
                 womenbody = new Intent(getApplicationContext() , WomenbodyActivity.class);
+                womenbody.putExtra("gender", gender);
+                womenbody.putExtra("skintone",skintone);
+                womenbody.putExtra("face","square");
                 AnimationUtils.loadAnimation(getApplicationContext() , R.anim.slide_inright);
                 startActivity(womenbody);
                 break;

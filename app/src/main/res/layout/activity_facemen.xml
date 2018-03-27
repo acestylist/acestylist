@@ -37,7 +37,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/trianglemenfacestructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -53,12 +55,12 @@
                     android:padding="10dp"
                     android:src="@drawable/trianglefacemen" />
                 <TextView
-                    android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="              TRIANGLE"
+                    android:text="TRIANGLE"
                     android:visibility="visible"
-                    android:textColor="@color/black_overlay"/>
+                    android:textColor="@color/black_overlay"
+                    android:gravity="center"/>
 
 
             </LinearLayout>
@@ -68,7 +70,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/squaremenfacestructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -84,11 +88,11 @@
                     android:padding="10dp"
                     android:src="@drawable/squarefacemen" />
                 <TextView
-                    android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="              SQUARE"
+                    android:text="SQUARE"
                     android:visibility="visible"
+                   android:gravity="center"
                     android:textColor="@color/black_overlay"/>
 
 
@@ -109,7 +113,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/ovalmenfacestructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -125,10 +131,10 @@
                     android:padding="10dp"
                     android:src="@drawable/ovalfacemen" />
                 <TextView
-                    android:id="@+id/textView"
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="              OVAL"
+                    android:text="OVAL"
                     android:visibility="visible"
                     android:textColor="@color/black_overlay"/>
 
@@ -139,7 +145,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/shapemenfacestructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -155,10 +163,10 @@
                     android:padding="10dp"
                     android:src="@drawable/longfacemen" />
                 <TextView
-                    android:id="@+id/textView"
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="              LONG"
+                    android:text="LONG"
                     android:visibility="visible"
                     android:textColor="@color/black_overlay"/>
 
@@ -180,7 +188,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/roundmenfacestructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -196,10 +206,10 @@
                     android:padding="10dp"
                     android:src="@drawable/roundfacemen" />
                 <TextView
-                    android:id="@+id/textView"
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="              ROUND"
+                    android:text="ROUND"
                     android:visibility="visible"
                     android:textColor="@color/black_overlay"/>
 

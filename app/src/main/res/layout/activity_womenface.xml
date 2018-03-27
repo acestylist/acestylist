@@ -38,7 +38,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/ovalwomenfacestructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -54,12 +56,13 @@
                     android:padding="10dp"
                     android:src="@drawable/ovalshapegirl" />
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/ovalwomenView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="                  OVAL"
+                    android:text="OVAL"
                     android:visibility="visible"
-                    android:textColor="@color/black_overlay"/>
+                    android:textColor="@color/black_overlay"
+                    android:gravity="center"/>
 
 
             </LinearLayout>
@@ -69,7 +72,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/roundwomenfacestructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -85,12 +90,13 @@
                     android:padding="10dp"
                     android:src="@drawable/round" />
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/roundwomenView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="              ROUND"
+                    android:text="ROUND"
                     android:visibility="visible"
-                    android:textColor="@color/black_overlay"/>
+                    android:textColor="@color/black_overlay"
+                    android:gravity="center"/>
 
 
             </LinearLayout>
@@ -110,7 +116,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/heartwomenfacestructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -126,12 +134,13 @@
                     android:padding="10dp"
                     android:src="@drawable/heart" />
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/heartwomenView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="              HEART"
+                    android:text="HEART"
                     android:visibility="visible"
-                    android:textColor="@color/black_overlay"/>
+                    android:textColor="@color/black_overlay"
+                    android:gravity="center"/>
 
 
             </LinearLayout>
@@ -140,7 +149,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/longwomenfacestructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -156,12 +167,13 @@
                     android:padding="10dp"
                     android:src="@drawable/longshape" />
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/longshapewomenView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="              LONGSHAPE"
+                    android:text="LONGSHAPE"
                     android:visibility="visible"
-                    android:textColor="@color/black_overlay"/>
+                    android:textColor="@color/black_overlay"
+                    android:gravity="center"/>
 
 
             </LinearLayout>
@@ -180,7 +192,9 @@
         <android.support.v7.widget.CardView
             android:layout_width="160dp"
             android:layout_height="140dp"
-            android:layout_margin="9dp">
+            android:layout_margin="9dp"
+            android:id="@+id/squarewomenfacestructure"
+            android:onClick="onClick">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -196,12 +210,13 @@
                     android:padding="10dp"
                     android:src="@drawable/square" />
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/squarewomenView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="              SQUARE"
+                    android:text="SQUARE"
                     android:visibility="visible"
-                    android:textColor="@color/black_overlay"/>
+                    android:textColor="@color/black_overlay"
+                    android:gravity="center"/>
 
 
 

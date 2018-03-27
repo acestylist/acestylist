@@ -12,9 +12,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
 public class SkintoneActivity extends AppCompatActivity implements View.OnClickListener {
-    CardView neutral;
-    CardView cool;
-    CardView warm;
+  private  CardView neutral,cool ,warm;
+
 
     Intent i;
     String gender;
@@ -41,7 +40,6 @@ public class SkintoneActivity extends AppCompatActivity implements View.OnClickL
         System.out.println("Gender is "+gender);
 
 
-
     }
 
     @Override
@@ -55,11 +53,13 @@ public class SkintoneActivity extends AppCompatActivity implements View.OnClickL
                 if(gender.equals("female")) {
                     faceactivity = new Intent(getApplicationContext(), FacewomenActivity.class);
                     faceactivity.putExtra("gender", gender);
+                    faceactivity.putExtra("skintone","neutral");
                 }
                 else
                     {
                     faceactivity = new Intent(getApplicationContext(), FacemenActivity.class);
                     faceactivity.putExtra("gender", gender);
+                    faceactivity.putExtra("skintone","neutral");
                     }
                 AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_inright);
                 startActivity(faceactivity);
@@ -70,11 +70,13 @@ public class SkintoneActivity extends AppCompatActivity implements View.OnClickL
                 if(gender.equals("female")) {
                     faceactivity = new Intent(getApplicationContext(), FacewomenActivity.class);
                     faceactivity.putExtra("gender", gender);
+                    faceactivity.putExtra("skintone","cool");
                 }
                 else
                 {
                     faceactivity = new Intent(getApplicationContext(), FacemenActivity.class);
                     faceactivity.putExtra("gender", gender);
+                    faceactivity.putExtra("skintone","cool");
                 }
                 AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_inright);
                 startActivity(faceactivity);
@@ -85,11 +87,13 @@ public class SkintoneActivity extends AppCompatActivity implements View.OnClickL
                 if(gender.equals("female")) {
                     faceactivity = new Intent(getApplicationContext(), FacewomenActivity.class);
                     faceactivity.putExtra("gender", gender);
+                    faceactivity.putExtra("skintone","warm");
                 }
                 else
                 {
                     faceactivity = new Intent(getApplicationContext(), FacemenActivity.class);
                     faceactivity.putExtra("gender", gender);
+                    faceactivity.putExtra("skintone","warm");
                 }
                 AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_inright);
                 startActivity(faceactivity);
