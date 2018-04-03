@@ -190,34 +190,10 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/beardseven"/>
+                android:src="@drawable/beardnine"/>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
             android:id="@+id/cardsixteen_et"
-            android:layout_width="150dp"
-            android:layout_height="190dp"
-            android:layout_margin="10dp">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/beardeight"/>
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardseventeen_et"
-            android:layout_width="150dp"
-            android:layout_height="190dp"
-            android:layout_margin="10dp">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/beardnine"/>
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:id="@+id/cardtwenty_et"
             android:layout_width="150dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
@@ -229,7 +205,7 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:id="@+id/cardnineteen_et"
+            android:id="@+id/cardseventeen_et"
             android:layout_width="150dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
@@ -238,6 +214,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/beardoneeleven"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwenty_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/beardtwelve"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardnineteen_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/beardthirteen"/>
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
             android:id="@+id/cardtwentyone_et"
@@ -248,7 +248,29 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/beardtwelve"/>
+                android:src="@drawable/beardfourteen"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwentytwo_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/beardfifteen"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+        android:id="@+id/cardtwentythree_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/beardsixteen"/>
         </android.support.v7.widget.CardView>
     </GridLayout>
 

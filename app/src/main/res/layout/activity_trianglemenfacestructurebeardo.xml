@@ -217,7 +217,18 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:id="@+id/cardeighteen_et"
+        android:id="@+id/cardeighteen_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/beardsix"/>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardnineteen_et"
             android:layout_width="150dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
@@ -225,7 +236,18 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/beardsix"/>
+                android:src="@drawable/beardseven"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwenty_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/beardeight"/>
         </android.support.v7.widget.CardView>
     </GridLayout>
 

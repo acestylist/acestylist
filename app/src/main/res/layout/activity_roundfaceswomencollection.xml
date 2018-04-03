@@ -34,14 +34,23 @@
                 android:visibility="visible" />
 
         </LinearLayout>
-
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textColor="@color/black_overlay"
+            android:textSize="40dp"
+            android:visibility="visible"
+            android:layout_margin="5dp"
+            android:text="       ROUND"
+            android:gravity="center"/>
         <android.support.v7.widget.CardView
-            android:id="@+id/trianglegrooming_et"
+            android:id="@+id/roundwfmakeup_et"
             android:layout_width="190dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
             app:cardBackgroundColor="@color/backgroundcolor"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:onClick="onClick">
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -53,12 +62,13 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:id="@+id/triangleornaments_et"
+            android:id="@+id/roundwfhaircut_et"
             android:layout_width="190dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
             app:cardBackgroundColor="@color/backgroundcolor"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:onClick="onClick">
 
             <ImageView
                 android:layout_width="match_parent"
@@ -71,12 +81,13 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:id="@+id/triangleaccessries_et"
+            android:id="@+id/roundwfornaments_et"
             android:layout_width="190dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
             app:cardBackgroundColor="@color/backgroundcolor"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:onClick="onClick">
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

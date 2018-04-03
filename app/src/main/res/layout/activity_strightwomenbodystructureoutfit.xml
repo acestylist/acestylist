@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="www.newproj.com.newpro.StrightwomenbodystructureoutfitActivity">
+    <GridLayout
+        android:id="@+id/maingrid"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardone_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbone" />
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwo_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwo"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthree_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthree"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardfour_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbfour"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardfive_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbfive"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardsix_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbsix"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardseven_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbseven"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardeight_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbeight"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardnine_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbnine"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardten_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbten"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardeleven_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbeleven"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwelve_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwelve"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthirteen_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthirteen"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardfourteen_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbfourteen"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardfifteen_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbfifteen"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardsixteen_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbsixteen"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardseventeen_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbseventeen"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardeighteen_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbeighteen"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardnineteen_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbnineteen"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwenty_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwenty"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwentyone_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwentyone"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwentytwo_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwentytwo"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwentythree_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwentythree"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwentyfour_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwentyfour"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwentyfive_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwentyfive"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwentysix_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwentysix"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwentyseven_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwentyseven"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwentyeight_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwentyeight"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardtwentynine_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbtwentynine"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthirty_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthirty"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthirtyone_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthirtyone"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthirtytwo_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthirtytwo"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthirtythree_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthirtythree"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthirtyfour_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthirtyfour"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthirtyfive_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthirtyfive"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthirtysix_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthirtysix"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthirtyseven_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthirtyseven"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthirtyeight_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthirtyeight"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardthirtynine_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbthirtynine"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardfourty_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbfourty"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardfourtyone_et"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/straightoutfitwbfourtyone"/>
+        </android.support.v7.widget.CardView>
+    </GridLayout>
+</ScrollView>

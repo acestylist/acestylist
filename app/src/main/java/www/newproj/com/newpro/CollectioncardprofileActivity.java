@@ -101,7 +101,7 @@ public class CollectioncardprofileActivity extends AppCompatActivity  {
             public void onClick(View view) {
                 System.out.println("card clicked");
                 if(body.equals("triangle") && gender.equals("female")){
-                    newact = new Intent(CollectioncardprofileActivity.this , TrianglebodycollectionActivity.class);
+                    newact = new Intent(CollectioncardprofileActivity.this , InvertedtrianglebodycollectionActivity.class);
                     startActivity(newact);
                 }else  if(body.equals("hourglass") && gender.equals("female")){
                     newact = new Intent(CollectioncardprofileActivity.this ,HourglassbodycollectionActivity.class);
@@ -123,13 +123,13 @@ public class CollectioncardprofileActivity extends AppCompatActivity  {
                     newact = new Intent(CollectioncardprofileActivity.this , RectanglemenbodycollectionActivity.class);
                     startActivity(newact);
                 }else  if(body.equals("trap") && gender.equals("male")){
-                    newact = new Intent(CollectioncardprofileActivity.this , TrapmenbodyActivity.class);
+                    newact = new Intent(CollectioncardprofileActivity.this , TrapmenbodycollectionActivity.class);
                     startActivity(newact);
                 }else  if(body.equals("triangle") && gender.equals("male")){
                     newact = new Intent(CollectioncardprofileActivity.this , TrianglemenbodycollectionActivity.class);
                     startActivity(newact);
                 }else  if(body.equals("intri") && gender.equals("male")){
-                    newact = new Intent(CollectioncardprofileActivity.this ,IntrimenbodyActivity.class);
+                    newact = new Intent(CollectioncardprofileActivity.this ,IntrimenbodycollectionActivity.class);
                     startActivity(newact);
                 }
             }

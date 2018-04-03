@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="www.newproj.com.newpro.TrianglemenbodystructureoutfitActivity">
+    <GridLayout
+        android:id="@+id/maingrid"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardone_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbone" />
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardtwo_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbtwo"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardthree_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbthree"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardfour_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbfour"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardfive_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbfive"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardsix_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbsix"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardseven_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbseven"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardeight_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbeight"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardnine_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbnine"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardten_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbten"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardeleven_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbeleven"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardtwelve_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbtwelve"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/thirteen_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbthirteen"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardfourteen_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangleoutfitmbfourteen"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardfifteen_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/outfitmbtwentyeight"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardsixteen_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/outfitmbtwentynine"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardseventeen_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/outfitmbthirty"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardtwenty_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/outfitmbthirtyone"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardnineteen_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/outfitmbthirtytwo"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardtwentyone_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/outfitmbthirtythree"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardtwentytwo_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/outfitmbthirtyfour"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardtwentythree_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/outfitmbthirtyfive"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardtwentyfour_et"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/outfitmbthirtysix"/>
+    </android.support.v7.widget.CardView>
+
+    </GridLayout>
+</ScrollView>
