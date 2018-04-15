@@ -22,12 +22,17 @@
             android:layout_width="150dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
-
+            <ImageButton
+                android:id="@+id/image_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trianglehairmone" />
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/trianglehairmone" />
+                android:src="@drawable/trianglehairmone"/>
         </android.support.v7.widget.CardView>
+
         <android.support.v7.widget.CardView
             android:id="@+id/cardtwo_et"
             android:layout_width="150dp"
@@ -274,5 +279,4 @@
                 android:src="@drawable/haircutmten"/>
         </android.support.v7.widget.CardView>
     </GridLayout>
-
 </ScrollView>
