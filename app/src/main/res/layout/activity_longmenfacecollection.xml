@@ -28,7 +28,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/longfacemen"
                 android:visibility="visible" />
@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="250dp"
             android:layout_height="50dp"
-            android:textColor="@color/black_overlay"
+            android:textColor="#000"
             android:textSize="40dp"
             android:visibility="visible"
             android:layout_margin="5dp"
@@ -53,7 +53,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/accessoriesmen"
                 android:visibility="visible" />
@@ -72,7 +72,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/haircutmen"
                 android:visibility="visible" />
@@ -90,7 +90,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/beardmen"
                 android:visibility="visible" />

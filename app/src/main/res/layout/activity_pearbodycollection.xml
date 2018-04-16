@@ -27,7 +27,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/pear"
                 android:visibility="visible" />
@@ -52,7 +52,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/grooming"
                 android:visibility="visible" />
@@ -71,7 +71,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/accessories"
                 android:visibility="visible" />
@@ -89,7 +89,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/outfitwomenbody"
                 android:visibility="visible" />

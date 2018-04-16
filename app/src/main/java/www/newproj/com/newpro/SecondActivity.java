@@ -11,7 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class SecondActivity extends AppCompatActivity {
-       Button submit;
+       Button Signup, learnmore, login;
+
     DatabaseHandler db;
     private EditText inputName, inputEmail, inputMobile, inputPass;
     String name,lastname,email,mobile,password;
@@ -40,12 +41,7 @@ public class SecondActivity extends AppCompatActivity {
         inputPass = (EditText) findViewById(R.id.epass);
        // inputDate = (EditText) findViewById(R.id.edate);
 
-        submit = (Button) findViewById(R.id.esub);
-        submit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                count++;
+                 count++;
 
                 Log.v("added","");
                 name = inputName.getText().toString();
@@ -73,8 +69,37 @@ public class SecondActivity extends AppCompatActivity {
 
                 Intent third= new Intent(SecondActivity.this, ThirdActivity.class);
                 startActivity(third);
-            }
-        });
 
-    }
+
+                Signup = (Button) findViewById(R.id.signup);
+                Signup.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent signupactivity = new Intent(SecondActivity.this, SignupActivity.class);
+                        startActivity(signupactivity);
+                    }
+                });
+                learnmore = (Button) findViewById(R.id.learn);
+                learnmore.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent learnmore = new Intent(SecondActivity.this, LearnmoreActivity.class);
+                        startActivity(learnmore);
+                    }
+                });
+
+                login = (Button) findViewById(R.id.login);
+                login.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent loginact = new Intent(SecondActivity.this, LoginActivity.class);
+                        startActivity(loginact);
+                    }
+                });
+
+        }
+
 }
+
+
+

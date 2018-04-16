@@ -28,7 +28,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/longshape"
                 android:visibility="visible" />
@@ -54,7 +54,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/makeupwomen"
                 android:visibility="visible" />
@@ -73,7 +73,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/haircutwomen"
                 android:visibility="visible" />
@@ -85,13 +85,13 @@
             android:layout_width="190dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            app:cardBackgroundColor="@color/backgroundcolor"
+            app:cardBackgroundColor="#fff"
             android:layout_gravity="center"
             android:onClick="onClick">
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/faceornaments"
                 android:visibility="visible" />

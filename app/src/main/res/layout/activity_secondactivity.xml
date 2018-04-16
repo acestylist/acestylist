@@ -1,86 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="www.newproj.com.newpro.SecondActivity"
-    android:background="#ccc">
+    android:orientation="vertical">
 
-
-    <EditText
-        android:id="@+id/username"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="NAME"
-        android:inputType="textPersonName" />
+        android:background="@color/darkblue"
+        android:orientation="vertical"
+        android:padding="35dp">
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/username"
-        android:layout_below="@+id/username"
-        android:ems="10"
-        android:hint="LAST NAME"
-        android:inputType="textPersonName"
-        android:visibility="gone" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fefefe"
+            android:text="Welcome to AceStylist"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Your personal stylist at your fingertip.
+he stylist who brings out the best in you and makes you look presentable in every walk of your life.
+Be confident,be you with AceStylist."
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"/>
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/learn"
+                android:layout_margin="10dp"
+                android:textColor="#fff"
+                android:background="@drawable/loh1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"/>
 
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/editText2"
-        android:layout_below="@+id/editText2"
-        android:ems="10"
-        android:hint="EMAIL ID"
-        android:inputType="textEmailAddress" />
+            <Button
+                android:id="@+id/signup"
+                android:layout_margin="10dp"
+                android:textColor="#fff"
+                android:background="@drawable/whitekeey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sign up"/>
 
-    <EditText
-        android:id="@+id/emob"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/email"
-        android:layout_below="@+id/email"
-        android:ems="10"
-        android:hint="MOBILE NO"
-        android:inputType="phone" />
+        </LinearLayout>
 
-    <EditText
-        android:id="@+id/epass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/emob"
-        android:layout_below="@+id/emob"
-        android:ems="10"
-        android:hint="PASSWORD"
-        android:inputType="textPassword" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME"/>
+        <EditText
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:inputType="textPassword" />
+        <Button
+            android:id="@+id/login"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/loh1"
+            android:text="LOGIN"
+            android:textColor="#fff"/>
 
-    <EditText
-        android:id="@+id/edate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/epass"
-        android:layout_below="@+id/epass"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:hint="DATE"
-        android:inputType="date" />
-
-    <Button
-        style="@style/buttonstyle"
-        android:id="@+id/esub"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/edate"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="12dp"
-        android:text="@string/buttonname" />
-</RelativeLayout>
-
-
+    </LinearLayout>
+</LinearLayout>

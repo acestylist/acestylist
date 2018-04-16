@@ -28,7 +28,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/heart"
                 android:visibility="visible" />
@@ -54,7 +54,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/makeupwomen"
                 android:visibility="visible" />
@@ -73,7 +73,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/haircutwomen"
                 android:visibility="visible" />
@@ -91,7 +91,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/black_overlay"
+                android:background="#fff"
                 android:padding="10dp"
                 android:src="@drawable/faceornaments"
                 android:visibility="visible" />

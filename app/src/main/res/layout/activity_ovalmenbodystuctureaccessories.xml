@@ -5,6 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="www.newproj.com.newpro.OvalmenbodystuctureaccessoriesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="link"
+            android:textColor="#000"
+            android:textSize="59dp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+
+
     <GridLayout
         android:id="@+id/maingrid"
         android:columnCount="2"
@@ -429,4 +447,7 @@
         </android.support.v7.widget.CardView>
 
     </GridLayout>
+
+
+
 </ScrollView>
