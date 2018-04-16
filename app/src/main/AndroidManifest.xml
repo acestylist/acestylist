@@ -2,10 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="www.newproj.com.newpro">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
-        android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -16,9 +19,106 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity">
-
-        </activity>
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".ProfilecardActivity" />
+        <activity android:name=".SearchcardActivity" />
+        <activity android:name=".UpdatecardActivity" />
+        <activity android:name=".LogoutcardActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".FacewomenActivity" />
+        <activity android:name=".FacemenActivity" />
+        <activity android:name=".SkintoneActivity" />
+        <activity android:name=".WomenbodyActivity" />
+        <activity android:name=".MenbodyActivity" />
+        <activity android:name=".CollectioncardprofileActivity" />
+        <activity android:name=".SuggestioncardprofileActivity" />
+        <activity android:name=".GenderActivity" />
+        <activity android:name=".CoolskintonecollectioncardActivity" />
+        <activity android:name=".Ovalfaceswomencollectionctivity" />
+        <activity android:name=".RoundfaceswomencollectionActivity" />
+        <activity android:name=".HeartfaceswomencollectionActivity" />
+        <activity android:name=".LongfacewomencollectionActivity" />
+        <activity android:name=".SquraefacewomencollectionActivity" />
+        <activity android:name=".InvertedtrianglebodycollectionActivity" />
+        <activity android:name=".ApplebodycollectionActivity" />
+        <activity android:name=".HourglassbodycollectionActivity" />
+        <activity android:name=".PearbodycollectionActivity" />
+        <activity android:name=".StraightbodycollectionActivity" />
+        <activity android:name=".OvalmenbodycollectionActivity" />
+        <activity android:name=".RectanglemenbodycollectionActivity" />
+        <activity android:name=".TrapmenbodycollectionActivity" />
+        <activity android:name=".TrianglemenbodycollectionActivity" />
+        <activity android:name=".IntrimenbodycollectionActivity" />
+        <activity android:name=".TrianglemenfacecollectionActivity" />
+        <activity android:name=".SquaremenfacecollectionActivity" />
+        <activity android:name=".OvalmenfacecollectionActivity" />
+        <activity android:name=".LongmenfacecollectionActivity" />
+        <activity android:name=".RoundmenfacecollectionActivity" />
+        <activity android:name=".WarmskintonecollectionActivity" />
+        <activity android:name=".NeutralskintonecollectioncardActivity" />
+        <activity android:name=".TrianglemenfacestructurehaircutActivity" />
+        <activity android:name=".TrianglemenfacestructurebeardActivity" />
+        <activity android:name=".TrianglemenfacestructureaccessoriesActivity" />
+        <activity android:name=".SquaremenfacestructurebeardActivity" />
+        <activity android:name=".SquaremenfacestructureheircutActivity" />
+        <activity android:name=".SquaremenfacestructureaccessoriesActivity" />
+        <activity android:name=".OvalmenfacestructurebeardActivity" />
+        <activity android:name=".LongmenfacestructurebeardActivity" />
+        <activity android:name=".RoundmenfacestructurebeardActivity" />
+        <activity android:name=".OvalmenfacestructurehaircutActivity" />
+        <activity android:name=".LongmenfacestructurehaircutActivity" />
+        <activity android:name=".RoundmenfacestructurehaircutActivity" />
+        <activity android:name=".OvalmenfacestructureaccesoriesActivity" />
+        <activity android:name=".LongmenfacestructureaccesoriesActivity" />
+        <activity android:name=".RoundmenfacestructeraccessoriesActivity" />
+        <activity android:name=".OvalmenbodystructuregroomigActivity" />
+        <activity android:name=".RectanglemenbodystructuregroomingActivity" />
+        <activity android:name=".TrapmenbodystructuregroomingActivity" />
+        <activity android:name=".TrianglemenbodystructuregroomingActivity" />
+        <activity android:name=".IntrimenbodystructuregroomingActivity" />
+        <activity android:name=".OvalmenbodystuctureaccessoriesActivity" />
+        <activity android:name=".RectanglrmenodystructureaccessoriesActivity" />
+        <activity android:name=".TrapmenbodystructureaccessoriesActivity" />
+        <activity android:name=".TrianglemenbodystructureaccessoriesActivity" />
+        <activity android:name=".IntrimenbodystructureaccessoriesActivity" />
+        <activity android:name=".OvalmenbodystructureoutfitActivity" />
+        <activity android:name=".RectanglemenbodystructureoutfitActivity" />
+        <activity android:name=".TrapmenbodystructureoutfitActivity" />
+        <activity android:name=".TrianglemenbodystructureoutfitActivity" />
+        <activity android:name=".IntrimenbodystructureoutfitActivity" />
+        <activity android:name=".OvalwomenfacestructuremakeupActivity" />
+        <activity android:name=".RoundwomenfacestructuremakeupActivity" />
+        <activity android:name=".HeartwomenfacestructuremakeupActivity" />
+        <activity android:name=".LongwomenfacestructuremakeupActivity" />
+        <activity android:name=".SquarewomenfacestructremakeupActivity" />
+        <activity android:name=".OvalwomenfacestructurehaircutActivity" />
+        <activity android:name=".RoundwomenfacestructurehaircutActivity" />
+        <activity android:name=".HeartwomenfacestructurehaircutActivity" />
+        <activity android:name=".LongwomenfacestructurehaircutActivity" />
+        <activity android:name=".SquarewomenfacestructurehaircutActivity" />
+        <activity android:name=".OvalwomenfacestructureaccessoriesActivity" />
+        <activity android:name=".RoundwomenfacestructureaccessoriesActivity" />
+        <activity android:name=".HeartwomenfacestructureaccessoriesActivity" />
+        <activity android:name=".LongwomenfacestructureaccessoriesActivity" />
+        <activity android:name=".SquarewomenfacestructureaccessoriesActivity" />
+        <activity android:name=".InvertedwomenbodystructureoutfitActivity" />
+        <activity android:name=".HourglasswomenbodystructureoutfitActivity" />
+        <activity android:name=".StrightwomenbodystructureoutfitActivity" />
+        <activity android:name=".PearwomenbodystructureoutfitActivity" />
+        <activity android:name=".ApplewomenbodystructureoutfitActivity" />
+        <activity android:name=".InvertedwomenbodystructuregroomingActivity" />
+        <activity android:name=".HourglasswomenbodystructuregroomingActivity" />
+        <activity android:name=".StrightwomenbodystructuregroomingActivity" />
+        <activity android:name=".PearwomenbodystructuregroomingActivity" />
+        <activity android:name=".ApplewomenbodystructuregroomingActivity" />
+        <activity android:name=".InvertedwomenbodystructureaccessoriesActivity" />
+        <activity android:name=".HourglasswomenbodystructureaccessoriesActivity" />
+        <activity android:name=".StraightwomenbodystructureaceessoriesActivity" />
+        <activity android:name=".PearwomenbodystructureaccessoriesActivity" />
+        <activity android:name=".ApplewomenbodystructureaccessoriesActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LearnmoreActivity" />
+        <activity android:name=".LoginActivity"></activity>
     </application>
 
 </manifest>
