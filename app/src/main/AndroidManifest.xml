@@ -118,7 +118,7 @@
         <activity android:name=".ApplewomenbodystructureaccessoriesActivity" />
         <activity android:name=".SignupActivity" />
         <activity android:name=".LearnmoreActivity" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
     </application>
 
 </manifest>

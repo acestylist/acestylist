@@ -27,7 +27,8 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_secondactivity);
+        setContentView(R.layout.activity_second);
+
 
         db = new DatabaseHandler(this);
 
@@ -39,6 +40,7 @@ public class SecondActivity extends AppCompatActivity {
         inputEmail = (EditText) findViewById(R.id.email);
         inputMobile = (EditText) findViewById(R.id.emob);
         inputPass = (EditText) findViewById(R.id.epass);
+
        // inputDate = (EditText) findViewById(R.id.edate);
 
                  count++;
@@ -48,7 +50,7 @@ public class SecondActivity extends AppCompatActivity {
                 email = inputEmail.getText().toString().trim();
                 mobile = inputMobile.getText().toString().trim();
                 password = inputPass.getText().toString().trim();
-                lastname = "test";
+                 lastname = "test";
 
                 System.out.println("name : "+name+"\n"+"lastname : "+lastname+"\n"+"email: "+email+"\n"+"mobile : "+mobile+"\n"+"password : "+password);
 
@@ -63,41 +65,34 @@ public class SecondActivity extends AppCompatActivity {
                 editor.putString("email", email);
                 editor.putString("mobile", mobile);
                 editor.putString("password", password);
-
                 editor.commit();
 
+        Signup = (Button) findViewById(R.id.signup);
+        Signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent signupactivity = new Intent(SecondActivity.this, SignupActivity.class);
+                startActivity(signupactivity);
+            }
+        });
+        learnmore = (Button) findViewById(R.id.learn);
+        learnmore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent learnmore = new Intent(SecondActivity.this, LearnmoreActivity.class);
+                startActivity(learnmore);
+            }
+        });
 
-                Intent third= new Intent(SecondActivity.this, ThirdActivity.class);
-                startActivity(third);
-
-
-                Signup = (Button) findViewById(R.id.signup);
-                Signup.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent signupactivity = new Intent(SecondActivity.this, SignupActivity.class);
-                        startActivity(signupactivity);
-                    }
-                });
-                learnmore = (Button) findViewById(R.id.learn);
-                learnmore.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent learnmore = new Intent(SecondActivity.this, LearnmoreActivity.class);
-                        startActivity(learnmore);
-                    }
-                });
-
-                login = (Button) findViewById(R.id.login);
-                login.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent loginact = new Intent(SecondActivity.this, LoginActivity.class);
-                        startActivity(loginact);
-                    }
-                });
-
-        }
+        login = (Button) findViewById(R.id.loginn);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent loginact = new Intent(SecondActivity.this, ThirdActivity.class);
+                startActivity(loginact);
+            }
+        });
+    }
 
 }
 

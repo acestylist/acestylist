@@ -17,7 +17,7 @@ import android.view.View;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
     public static final String MyPREFERENCES = "MyPrefs" ;
-    String myname, mylastname, myemail, mymobile;
+    String myname, mylastname, myemail, mymobile,mydob;
 
 
     @Override
@@ -39,6 +39,7 @@ import android.view.View;
         mylastname = (sharedPreferences.getString("lastname", ""));
         mymobile = (sharedPreferences.getString("mobile", ""));
         myemail= (sharedPreferences.getString("password", ""));
+        myemail= (sharedPreferences.getString("dob", ""));
 
         Clientdata clientdata = db.getClient("shriyaarolkar26@gmail.com ");// get data from database for particular user
 

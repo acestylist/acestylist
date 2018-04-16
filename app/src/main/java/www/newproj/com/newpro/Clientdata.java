@@ -14,7 +14,7 @@ public class Clientdata {
     String client_emailid;
     String client_password;
 
-    public Clientdata(){
+    public Clientdata(String name, String lastname, String email, String mobile, String password, String dob){
 
     }
 
